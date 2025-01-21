@@ -1,12 +1,12 @@
 {
-  "name": "easy-bundler",
+  "name": "chat",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port 3000"
   },
   "devDependencies": {
     "sass-embedded": "^1.83.1",
@@ -15,8 +15,5 @@
   },
   "dependencies": {
     "handlebars": "^4.7.8"
-  },
-  "scripts": {
-    "dev": "vite --port 3000"
   }
 }
